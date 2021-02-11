@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<title>Photo Gallery</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Photo Gallery</a>
+    </div>
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+          <li><a href="#home">Home</a></li>
+        <li><a href="#Grids">Grid view</a></li>
+        <li><a href="#slides">Slide view</a></li>
+        </ul>
+    </div>
+
+</nav>
+<body>
+
+<div class="container">
+    <section id="home">
+    <div class="page-header">
+  		<h2 class="text-capitalize"></h2>
+        </div>
+          </section>
+       <!>
+   <hr style="width: 100%;">
+     <section id="Grids">
+        <h2> Grid gallery</h2>   
+          <br>
+         <script src=""></script>
+          <div class="row">
+              <img class="img1" src="0-4568_vs-debating-wiki-rarity-mlp-hd-png-download.png">
+              <img class="img2" src="225-2259720_pinkie-pie-my-little-pony-images-pinkie-pie.png">
+              <img class="img3" src="228-2289650_ask-fluttershy-mlp-fluttershy-excited.png">
+              <br><br>	
+            </div>
+          <div class="row">
+            <img class="img4" src="c3f77af44e33c7f1825533b0c7eb299b.png">
+            <img class="img5" src="download.png">  
+            <img class="img6" src="il_570xN.1549985625_1lpk.jpg">      
+             </div>
+             
+ </section>
+   
+    <br>
+    <br>
+     <hr style="width: 100%;">
+    
+      
+       <!-- Left and right controls -->
+    <section id="slides">
+       <h2>Sliding gallary</h2>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
+      <li data-target="#myCarousel" data-slide-to="6"></li>
+        <li data-target="#myCarousel" data-slide-to="7"></li>
+     
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img class="img-responsive" src="0-4568_vs-debating-wiki-rarity-mlp-hd-png-download.png" alt="Rarity" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Rarity</h3>
+          </div>
+      </div>
+
+      <div class="item">
+        <img class="img-responsive" src="225-2259720_pinkie-pie-my-little-pony-images-pinkie-pie.png" alt="Pinkie Pie" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Pinkie Pie</h3>
+          </div>
+      </div>
+    
+      <div class="item">
+        <img class="img-responsive" src="228-2289650_ask-fluttershy-mlp-fluttershy-excited.png" alt="Fluttershy" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Fluttershy</h3>
+        </div>
+      </div>
+         <div class="item">
+        <img class="img-responsive" src="c3f77af44e33c7f1825533b0c7eb299b.png" alt="Rainbow Dash" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Rainbow Dash</h3>
+        </div>
+      </div>
+         <div class="item">
+        <img class="img-responsive" src="download.png" alt="Apple Jack" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Apple Jack</h3>
+       </div>
+      </div>
+         <div class="item">
+        <img class="img-responsive" src="il_570xN.1549985625_1lpk.jpg" alt="Twilight Sparkle" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Twilight Sparkle</h3>
+        </div>
+      </div>
+        </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+        </section>
+    <hr style="width: 100%;">
+
+
+
+</div>
+
+</body>
+</html>
